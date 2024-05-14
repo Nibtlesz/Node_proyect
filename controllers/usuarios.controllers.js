@@ -11,7 +11,7 @@ const postUsuarios = async(req, res = response) =>{
     const usuario = new Usuario( { nombre, correo, password, rol, estado, google } );
     
     res.status(200).json({ 
-        msg: 'Peticion POST realizada con exito',
+        msg: 'Peticion POST realizada',
         nombre,
         rol,
         estado
